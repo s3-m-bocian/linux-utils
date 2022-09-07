@@ -1,0 +1,41 @@
+# TEMP
+## ...
+
+# BIN
+alias hist="history"
+alias clr="printf '\n' && clear -x"
+
+## cd
+alias cddesk="cd ~/Desktop"
+alias cddl="cd ~/Downloads"
+alias cdnotes="cd ~/Desktop/notes"
+
+alias cdwork="cd ~/Workspace"
+alias cdrepo="cd ~/Workspace/repo"
+alias cdproto="cd ~/Workspace/proto"
+alias cdtools="cd /workspace/tools"
+
+alias cdshared="cd ~/Shared"
+alias cddl="cd ~/Downloads"
+
+## docker
+alias dil="docker image list"
+alias dir="docker image remove"
+alias dps="docker ps"
+alias dst="docker container stop"
+
+## git
+alias gs="git status"
+
+## kubectl
+alias kctl="kubectl"
+
+## google-chrome
+alias chrome-nw="google-chrome --new-window"
+
+# SOURCE
+alias srczshrc="source ~/.zshrc"
+
+# MISC
+alias editzshrc="${EDITOR} ~/.zshrc"
+alias editalias="${EDITOR} ~/.oh-my-zsh/custom/alias"
